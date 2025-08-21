@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform",
+    "description": "Full-stack React e-commerce application with TypeScript, featuring product catalog, shopping cart, payment integration, and admin dashboard. Built with modern web technologies and best practices.",
+    "technologies": ["React", "TypeScript", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+    "thumbnail": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
+    "liveDemo": "https://ecommerce-demo.vercel.app",
+    "githubRepo": "https://github.com/MahoroHyacinthe/ecommerce-platform",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Task Management Dashboard",
+    "description": "Comprehensive task management application with drag-and-drop functionality, real-time updates, team collaboration features, and advanced filtering options.",
+    "technologies": ["React", "TypeScript", "Firebase", "Tailwind CSS", "Framer Motion"],
+    "thumbnail": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop",
+    "liveDemo": "https://taskmanager-demo.vercel.app",
+    "githubRepo": "https://github.com/MahoroHyacinthe/task-manager",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Weather Analytics Dashboard",
+    "description": "Interactive weather dashboard with location-based forecasts, beautiful data visualizations, historical data analysis, and weather alerts system.",
+    "technologies": ["React", "TypeScript", "Chart.js", "OpenWeather API", "Recharts"],
+    "thumbnail": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=300&fit=crop",
+    "liveDemo": "https://weather-dashboard-demo.vercel.app",
+    "githubRepo": "https://github.com/MahoroHyacinthe/weather-dashboard",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Social Media Analytics",
+    "description": "Advanced social media analytics platform with real-time data processing, engagement metrics, content performance tracking, and automated reporting.",
+    "technologies": ["React", "TypeScript", "D3.js", "Node.js", "PostgreSQL"],
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+    "liveDemo": "https://social-analytics-demo.vercel.app",
+    "githubRepo": "https://github.com/MahoroHyacinthe/social-analytics"
+  },
+  {
+    "id": 5,
+    "title": "Learning Management System",
+    "description": "Modern LMS with course creation tools, student progress tracking, interactive quizzes, video streaming, and certificate generation.",
+    "technologies": ["React", "TypeScript", "Express.js", "MongoDB", "Socket.io"],
+    "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+    "liveDemo": "https://lms-demo.vercel.app",
+    "githubRepo": "https://github.com/MahoroHyacinthe/learning-management"
+  },
+  {
+    "id": 6,
+    "title": "Real Estate Platform",
+    "description": "Comprehensive real estate platform with property listings, virtual tours, mortgage calculator, agent profiles, and advanced search filters.",
+    "technologies": ["React", "TypeScript", "Next.js", "Prisma", "Mapbox"],
+    "thumbnail": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=300&fit=crop",
+    "liveDemo": "https://realestate-demo.vercel.app",
+    "githubRepo": "https://github.com/MahoroHyacinthe/real-estate-platform"
+  },
+  {
+    "id": 7,
+    "title": "Fitness Tracking App",
+    "description": "Personal fitness tracking application with workout plans, progress monitoring, nutrition tracking, and social features for motivation.",
+    "technologies": ["React", "TypeScript", "PWA", "IndexedDB", "Chart.js"],
+    "thumbnail": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+    "liveDemo": "https://fitness-tracker-demo.vercel.app",
+    "githubRepo": "https://github.com/MahoroHyacinthe/fitness-tracker"
+  },
+  {
+    "id": 8,
+    "title": "Financial Dashboard",
+    "description": "Personal finance management dashboard with expense tracking, budget planning, investment portfolio monitoring, and financial goal setting.",
+    "technologies": ["React", "TypeScript", "Recharts", "Plaid API", "Tailwind CSS"],
+    "thumbnail": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+    "liveDemo": "https://finance-dashboard-demo.vercel.app",
+    "githubRepo": "https://github.com/MahoroHyacinthe/finance-dashboard"
+  },
+  {
+    "id": 9,
+    "title": "Recipe Sharing Platform",
+    "description": "Community-driven recipe sharing platform with ingredient substitutions, meal planning, shopping lists, and cooking timer features.",
+    "technologies": ["React", "TypeScript", "Firebase", "Algolia", "PWA"],
+    "thumbnail": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+    "liveDemo": "https://recipe-platform-demo.vercel.app",
+    "githubRepo": "https://github.com/MahoroHyacinthe/recipe-platform"
+  }
+]

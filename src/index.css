@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@theme {
+  --font-family-poppins: 'Poppins', sans-serif;
+  --font-family-inter: 'Inter', sans-serif;
+  --color-ivory: #F8F1E9;
+  --color-amber: #F59E0B;
+  --color-dark-gray: #1F2937;
+}
+
+body {
+  font-family: var(--font-family-inter);
+  @apply bg-slate-50 text-slate-900;
+}
+
+.dark body {
+  @apply bg-slate-900 text-slate-50;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-poppins);
+  font-weight: 700;
+}
+
+.glass-card {
+  @apply bg-white/80 dark:bg-slate-800/80 backdrop-blur-lg border border-slate-200/30 dark:border-slate-700/30 rounded-3xl shadow-2xl;
+}
+
+.btn-primary {
+  @apply bg-blue-800 hover:bg-blue-900 text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105;
+}
+
+.btn-secondary {
+  @apply border-2 border-blue-800 text-blue-800 hover:bg-blue-800 hover:text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105;
+}
+
+.section-padding {
+  @apply py-20 px-6;
+}
+
+.container-max {
+  @apply max-w-7xl mx-auto;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}

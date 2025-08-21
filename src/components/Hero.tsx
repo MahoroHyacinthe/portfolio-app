@@ -1,0 +1,172 @@
+import { motion } from 'framer-motion';
+import { FaGithub, FaLinkedin, FaFacebook, FaYoutube, FaWhatsapp, FaInstagram } from 'react-icons/fa';
+
+export const Hero = () => {
+  return (
+    <section className="min-h-screen bg-slate-50 dark:bg-slate-900 flex items-center justify-center section-padding relative overflow-hidden">
+      {/* Floating Elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-20 left-20 w-32 h-32 bg-blue-400/20 rounded-full blur-xl animate-float"></div>
+        <div className="absolute bottom-20 right-20 w-40 h-40 bg-slate-300/30 rounded-full blur-2xl animate-float" style={{animationDelay: '2s'}}></div>
+      </div>
+
+      <div className="container-max relative z-10">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          {/* Left Content */}
+          <motion.div
+            initial={{ opacity: 0, x: -100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            className="space-y-8"
+          >
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.2 }}
+            >
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-slate-900 dark:text-white mb-4 font-poppins">
+                Mahoro
+                <span className="block text-blue-600">Hyacinthe</span>
+              </h1>
+              <p className="text-xl md:text-2xl lg:text-3xl font-semibold text-slate-700 dark:text-slate-300 mb-6">
+                React Developer
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.4 }}
+              className="space-y-4"
+            >
+              <p className="text-lg md:text-xl text-slate-600 dark:text-slate-300 leading-relaxed">
+                Crafting Exceptional Digital Experiences with React & TypeScript
+              </p>
+              <p className="text-base md:text-lg text-slate-500 dark:text-slate-400">
+                Solvit Africa Graduate • Frontend Specialist • Innovation Driven
+              </p>
+            </motion.div>
+
+            {/* Social Media Icons */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.6 }}
+              className="flex gap-4 flex-wrap"
+            >
+              {[
+                { icon: FaLinkedin, href: "https://linkedin.com/in/mahoro-hyacinthe", color: "hover:text-blue-600" },
+                { icon: FaGithub, href: "https://github.com/MahoroHyacinthe", color: "hover:text-gray-800" },
+                { icon: FaFacebook, href: "https://facebook.com/mahoro.hyacinthe", color: "hover:text-blue-500" },
+                { icon: FaInstagram, href: "https://instagram.com/mahoro.hyacinthe", color: "hover:text-pink-500" },
+                { icon: FaYoutube, href: "https://youtube.com/@mahorohyacinthe", color: "hover:text-red-500" },
+                { icon: FaWhatsapp, href: "https://wa.me/250123456789", color: "hover:text-green-500" }
+              ].map(({ icon: Icon, href, color }, index) => (
+                <motion.a
+                  key={href}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.2, y: -5 }}
+                  whileTap={{ scale: 0.9 }}
+                  className={`p-4 glass-card text-slate-700 dark:text-white ${color} transition-all duration-300`}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.8 + index * 0.1 }}
+                >
+                  <Icon className="text-xl" />
+                </motion.a>
+              ))}
+            </motion.div>
+
+            {/* Action Buttons */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 1.0 }}
+              className="flex flex-col sm:flex-row gap-6"
+            >
+              <motion.button
+                onClick={() => document.querySelector('#projects')?.scrollIntoView({ behavior: 'smooth' })}
+                whileHover={{ scale: 1.05, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+                className="btn-primary group"
+              >
+                <span className="flex items-center gap-2">
+                  Explore My Work
+                  <motion.svg 
+                    className="w-5 h-5" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                    animate={{ x: [0, 5, 0] }}
+                    transition={{ duration: 1.5, repeat: Infinity }}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0l-4 4m4-4l-4-4" />
+                  </motion.svg>
+                </span>
+              </motion.button>
+              <motion.button
+                onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
+                whileHover={{ scale: 1.05, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+                className="btn-secondary"
+              >
+                Let's Connect
+              </motion.button>
+            </motion.div>
+          </motion.div>
+
+          {/* Right Image */}
+          <motion.div
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, delay: 0.4 }}
+            className="flex justify-center lg:justify-end"
+          >
+            <motion.div 
+              className="relative"
+              whileHover={{ scale: 1.05, rotate: 2 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-400/20 to-slate-300/20 rounded-full blur-2xl"></div>
+              <img
+                src="/Myphoto.jpg"
+                alt="Mahoro Hyacinthe"
+                className="relative w-80 h-80 md:w-96 md:h-96 object-cover rounded-full shadow-2xl border-4 border-white/50"
+              />
+            </motion.div>
+          </motion.div>
+        </div>
+
+        {/* YouTube Video Link */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 1.2 }}
+          className="text-center mt-16"
+        >
+          <motion.a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.05, y: -5 }}
+            whileTap={{ scale: 0.95 }}
+            className="inline-flex items-center gap-3 glass-card px-8 py-4 text-slate-700 dark:text-white hover:text-blue-600 transition-all duration-300"
+          >
+            <motion.svg 
+              className="w-8 h-8 text-red-500" 
+              fill="currentColor" 
+              viewBox="0 0 24 24"
+              whileHover={{ rotate: 360 }}
+              transition={{ duration: 0.5 }}
+            >
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </motion.svg>
+            <span className="font-semibold">Watch My Introduction Video</span>
+          </motion.a>
+        </motion.div>
+      </div>
+    </section>
+  );
+};
