@@ -19,10 +19,16 @@ export const CVSection = () => {
 
   const experience = [
     {
+      role: 'Founder & Frontend Developer',
+      company: 'SkillLink',
+      period: '2024 - Present',
+      description: 'Founded micro-learning platform empowering developers through expert mentorship'
+    },
+    {
       role: 'Frontend Developer Trainee',
       company: 'Solvit Africa',
-      period: '2024 - Present',
-      description: 'Building modern web applications with React and TypeScript'
+      period: '2024',
+      description: 'Completed intensive React and TypeScript bootcamp program'
     }
   ];
 
@@ -58,14 +64,16 @@ export const CVSection = () => {
             >
               <h3 className="text-subheading text-slate-900 dark:text-white mb-4">{item.title}</h3>
               <p className="text-body text-slate-600 dark:text-slate-300 mb-8">{item.desc}</p>
-              <motion.button 
-                className="btn-primary"
+              <motion.a 
+                href={item.file === 'CV' ? '/cv/Mahoro_Hyacinthe_CV.pdf' : '/cv/Mahoro_Hyacinthe_Cover_Letter.pdf'}
+                download
+                className="btn-primary inline-flex items-center"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <FaDownload className="mr-3" />
                 Download {item.file}
-              </motion.button>
+              </motion.a>
             </motion.div>
           ))}
         </div>

@@ -1,4 +1,5 @@
 export interface Project {
+
   id: number;
   title: string;
   description: string;
@@ -7,4 +8,5 @@ export interface Project {
   liveDemo: string;
   githubRepo: string;
   featured?: boolean;
+  
 }

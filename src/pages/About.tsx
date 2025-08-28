@@ -49,23 +49,17 @@ export const About = () => {
             
             <div className="space-y-6">
               <p className="text-body text-slate-600 dark:text-slate-300 leading-relaxed">
-                I'm Mahoro Hyacinthe, a passionate React developer who recently completed an intensive 
-                bootcamp at <span className="text-blue-600 font-bold">Solvit Africa</span>. My journey into 
-                web development began with a fascination for creating digital solutions that make a real difference.
+                Hi, I'm Mahoro Hyacinthe, a frontend developer skilled in crafting scalable, intuitive web applications using React, TypeScript, and JavaScript. I prioritize clean, maintainable code to deliver seamless user experiences.
               </p>
               
               <p className="text-body text-slate-600 dark:text-slate-300 leading-relaxed">
-                Through rigorous training in React, TypeScript, and modern web technologies, I've developed 
-                a strong foundation in frontend development. My approach combines technical excellence with 
-                user-centered design.
+                I'm also the founder of <span className="text-blue-600 font-bold">SkillLink</span>, a micro-learning platform empowering aspiring developers through hands-on mentorship from industry experts. This initiative reflects my dedication to leveraging technology to create transformative opportunities for others.
               </p>
               
               <div className="glass-card p-8 bg-blue-50 dark:bg-blue-900/20">
                 <h3 className="text-xl font-bold text-blue-600 mb-4">What Drives Me</h3>
                 <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-                  I believe technology should empower people and solve real problems. Whether it's building 
-                  responsive web applications or optimizing user experiences, I'm committed to writing clean, 
-                  maintainable code that makes a difference.
+                  With a blend of technical expertise, creative problem-solving, and a collaborative approach, I consistently deliver impactful solutions in fast-paced environments.
                 </p>
               </div>
             </div>

@@ -46,10 +46,10 @@ export const Contact = () => {
               
               <div className="space-y-6">
                 {[
-                  { icon: FaEnvelope, text: 'mahoro.hyacinthe@example.com', color: 'text-blue-600' },
-                  { icon: FaPhone, text: '+250 123 456 789', color: 'text-green-600' },
+                  { icon: FaEnvelope, text: 'mahorohyacinthe@gmail.com', color: 'text-blue-600' },
+                  { icon: FaPhone, text: '+250 788 123 456', color: 'text-green-600' },
                   { icon: FaMapMarkerAlt, text: 'Kigali, Rwanda', color: 'text-purple-600' },
-                  { icon: FaLinkedin, text: 'linkedin.com/in/mahoro-hyacinthe', color: 'text-blue-500' }
+                  { icon: FaLinkedin, text: 'linkedin.com/in/mahoro-hyacinthe-526557232', color: 'text-blue-500' }
                 ].map(({ icon: Icon, text, color }, index) => (
                   <motion.div
                     key={text}
@@ -92,9 +92,9 @@ export const Contact = () => {
                 Let's Build Together
               </h3>
               <p className="text-body text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-                I'm actively seeking opportunities with innovative tech companies in Rwanda. 
-                If you're looking for a passionate React developer who's eager to contribute 
-                to meaningful projects, let's connect!
+                As the founder of SkillLink and an experienced frontend developer, I'm passionate about 
+                creating scalable web applications and mentoring aspiring developers. Let's collaborate 
+                on transformative projects that make a real impact!
               </p>
               <div className="flex flex-wrap gap-3">
                 {['React', 'TypeScript', 'Node.js', 'MongoDB'].map((tech) => (

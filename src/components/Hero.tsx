@@ -40,10 +40,10 @@ export const Hero = () => {
               className="space-y-4"
             >
               <p className="text-lg md:text-xl text-slate-600 dark:text-slate-300 leading-relaxed">
-                Crafting Exceptional Digital Experiences with React & TypeScript
+                Frontend developer skilled in crafting scalable, intuitive web applications
               </p>
               <p className="text-base md:text-lg text-slate-500 dark:text-slate-400">
-                Solvit Africa Graduate • Frontend Specialist • Innovation Driven
+                Founder of SkillLink • React & TypeScript Expert • Transformative Solutions
               </p>
             </motion.div>
 
@@ -55,10 +55,10 @@ export const Hero = () => {
               className="flex gap-4 flex-wrap"
             >
               {[
-                { icon: FaLinkedin, href: "https://linkedin.com/in/mahoro-hyacinthe", color: "hover:text-blue-600" },
+                { icon: FaLinkedin, href: "https://www.linkedin.com/in/mahoro-hyacinthe-526557232/", color: "hover:text-blue-600" },
                 { icon: FaGithub, href: "https://github.com/MahoroHyacinthe", color: "hover:text-gray-800" },
-                { icon: FaFacebook, href: "https://facebook.com/mahoro.hyacinthe", color: "hover:text-blue-500" },
-                { icon: FaInstagram, href: "https://instagram.com/mahoro.hyacinthe", color: "hover:text-pink-500" },
+                { icon: FaFacebook, href: "https://www.facebook.com/Eightquest", color: "hover:text-blue-500" },
+                { icon: FaInstagram, href: "https://www.instagram.com/hyacinthemahoro/", color: "hover:text-pink-500" },
                 { icon: FaYoutube, href: "https://youtube.com/@mahorohyacinthe", color: "hover:text-red-500" },
                 { icon: FaWhatsapp, href: "https://wa.me/250123456789", color: "hover:text-green-500" }
               ].map(({ icon: Icon, href, color }, index) => (
@@ -139,33 +139,7 @@ export const Hero = () => {
           </motion.div>
         </div>
 
-        {/* YouTube Video Link */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 1.2 }}
-          className="text-center mt-16"
-        >
-          <motion.a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.05, y: -5 }}
-            whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center gap-3 glass-card px-8 py-4 text-slate-700 dark:text-white hover:text-blue-600 transition-all duration-300"
-          >
-            <motion.svg 
-              className="w-8 h-8 text-red-500" 
-              fill="currentColor" 
-              viewBox="0 0 24 24"
-              whileHover={{ rotate: 360 }}
-              transition={{ duration: 0.5 }}
-            >
-              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-            </motion.svg>
-            <span className="font-semibold">Watch My Introduction Video</span>
-          </motion.a>
-        </motion.div>
+
       </div>
     </section>
   );

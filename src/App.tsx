@@ -5,6 +5,7 @@ import { CVSection } from './components/CVSection';
 import { Projects } from './pages/Projects';
 import { Journal } from './pages/Journal';
 import { Contact } from './pages/Contact';
+import { ChatBot } from './components/ChatBot';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Contact />
         </section>
       </main>
+      <ChatBot />
     </div>
   );
 }
