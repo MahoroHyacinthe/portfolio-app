@@ -49,7 +49,7 @@ export const About = () => {
             
             <div className="space-y-6">
               <p className="text-body text-slate-600 dark:text-slate-300 leading-relaxed">
-                Hi, I'm Mahoro Hyacinthe, a frontend developer skilled in crafting scalable, intuitive web applications using React, TypeScript, and JavaScript. I prioritize clean, maintainable code to deliver seamless user experiences.
+                Hi, I'm Mahoro Hyacinthe, a full stack developer skilled in crafting scalable, intuitive web applications with React, TypeScript, and JavaScript. I prioritize clean, maintainable code to deliver seamless user experiences.
               </p>
               
               <p className="text-body text-slate-600 dark:text-slate-300 leading-relaxed">
