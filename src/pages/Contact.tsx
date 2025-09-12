@@ -46,8 +46,8 @@ export const Contact = () => {
               
               <div className="space-y-6">
                 {[
-                  { icon: FaEnvelope, text: 'mahorohyacinthe@gmail.com', color: 'text-blue-600' },
-                  { icon: FaPhone, text: '+250 788 123 456', color: 'text-green-600' },
+                  { icon: FaEnvelope, text: 'mahorohyacinthe4@gmail.com', color: 'text-blue-600' },
+                  { icon: FaPhone, text: '+250 786 444 064', color: 'text-green-600' },
                   { icon: FaMapMarkerAlt, text: 'Kigali, Rwanda', color: 'text-purple-600' },
                   { icon: FaLinkedin, text: 'linkedin.com/in/mahoro-hyacinthe-526557232', color: 'text-blue-500' }
                 ].map(({ icon: Icon, text, color }, index) => (
@@ -97,7 +97,7 @@ export const Contact = () => {
                 on transformative projects that make a real impact!
               </p>
               <div className="flex flex-wrap gap-3">
-                {['React', 'TypeScript', 'Node.js', 'MongoDB'].map((tech) => (
+                {['React', 'TypeScript', 'Node.js',].map((tech) => (
                   <span key={tech} className="px-4 py-2 glass-card text-sm font-bold text-blue-600">
                     {tech}
                   </span>

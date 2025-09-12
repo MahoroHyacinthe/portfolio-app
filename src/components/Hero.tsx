@@ -15,18 +15,18 @@ export const Hero = () => {
           {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, x: -100 }}
-            animate={{ opacity: 1, x: 0 }}
+            animate={{ opacity: 1, x:30 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="space-y-8"
+            className="space-y-5 pt-30"
           >
             <motion.div
               initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 25 }}
               transition={{ duration: 1, delay: 0.2 }}
             >
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-slate-900 dark:text-white mb-4 font-poppins">
+              <h1 className="text-2xl md:text-6xl lg:text-7xl font-bold text-slate-900 dark:text-white mb-4 font-poppins">
                 Mahoro
-                <span className="block text-blue-600">Hyacinthe</span>
+                <span className=" text-blue-600">Hyacinthe</span>
               </h1>
               <p className="text-xl md:text-2xl lg:text-3xl font-semibold text-slate-700 dark:text-slate-300 mb-6">
                 React Developer
@@ -40,10 +40,10 @@ export const Hero = () => {
               className="space-y-4"
             >
               <p className="text-lg md:text-xl text-slate-600 dark:text-slate-300 leading-relaxed">
-                Frontend developer skilled in crafting scalable, intuitive web applications
+                Passionate frontend developer specializing in building scalable, elegant web applications with React, TypeScript, and JavaScript
               </p>
               <p className="text-base md:text-lg text-slate-500 dark:text-slate-400">
-                Founder of SkillLink • React & TypeScript Expert • Transformative Solutions
+                Founder of SkillLink • MedConnect • EightQuest Multi-media Powerhouse
               </p>
             </motion.div>
 
@@ -59,8 +59,8 @@ export const Hero = () => {
                 { icon: FaGithub, href: "https://github.com/MahoroHyacinthe", color: "hover:text-gray-800" },
                 { icon: FaFacebook, href: "https://www.facebook.com/Eightquest", color: "hover:text-blue-500" },
                 { icon: FaInstagram, href: "https://www.instagram.com/hyacinthemahoro/", color: "hover:text-pink-500" },
-                { icon: FaYoutube, href: "https://youtube.com/@mahorohyacinthe", color: "hover:text-red-500" },
-                { icon: FaWhatsapp, href: "https://wa.me/250123456789", color: "hover:text-green-500" }
+                { icon: FaYoutube, href: "https://www.youtube.com/@EightQuestWorld", color: "hover:text-red-500" },
+                { icon: FaWhatsapp, href: "https://wa.me/250786444064", color: "hover:text-green-500" }
               ].map(({ icon: Icon, href, color }, index) => (
                 <motion.a
                   key={href}
@@ -122,7 +122,7 @@ export const Hero = () => {
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
-            className="flex justify-center lg:justify-end"
+            className="flex justify-center lg:justify-end px-20"
           >
             <motion.div 
               className="relative"
