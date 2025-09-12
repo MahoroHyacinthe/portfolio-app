@@ -23,7 +23,7 @@ export const ChatBot = () => {
   const [inputText, setInputText] = useState('');
   const [isListening, setIsListening] = useState(false);
   const [recognition, setRecognition] = useState<any>(null);
-  const [voiceEnabled, setVoiceEnabled] = useState(true);
+
   const [autoSpeakEnabled, setAutoSpeakEnabled] = useState(true);
 
   // Stop any existing speech and initialize
@@ -86,16 +86,7 @@ export const ChatBot = () => {
     };
   }, []);
 
-  const speakText = (text: string) => {
-    if (autoSpeakEnabled && 'speechSynthesis' in window) {
-      const synth = window.speechSynthesis;
-      synth.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.rate = 0.8;
-      utterance.volume = 1;
-      synth.speak(utterance);
-    }
-  };
+
 
   const startListening = () => {
     if (recognition) {
