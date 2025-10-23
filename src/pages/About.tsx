@@ -31,7 +31,7 @@ export const About = () => {
               className="relative"
             >
               <img
-                src="/Myphoto.jpg"
+                src="./Myphoto.jpg"
                 alt="Mahoro Hyacinthe"
                 className="w-64 h-64 object-cover rounded-full shadow-2xl"
               />
