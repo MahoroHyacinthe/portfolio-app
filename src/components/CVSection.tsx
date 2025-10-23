@@ -89,7 +89,7 @@ export const CVSection = () => {
               <h3 className="text-subheading text-slate-900 dark:text-white mb-4">{item.title}</h3>
               <p className="text-body text-slate-600 dark:text-slate-300 mb-8">{item.desc}</p>
               <motion.a 
-                href={item.file === 'CV' ? '/cv/Mahoro_Hyacinthe_CV.pdf' : '/cv/Mahoro_Hyacinthe_Cover_Letter.pdf'}
+                href={item.file === 'CV' ? './cv/Mahoro_Hyacinthe_CV.pdf' : './cv/Mahoro_Hyacinthe_Cover_Letter.pdf'}
                 download
                 className="btn-primary inline-flex items-center"
                 whileHover={{ scale: 1.05 }}

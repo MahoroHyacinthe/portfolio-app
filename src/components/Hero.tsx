@@ -131,7 +131,7 @@ export const Hero = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400/20 to-slate-300/20 rounded-full blur-2xl"></div>
               <img
-                src="/Myphoto.jpg"
+                src="./Myphoto.jpg"
                 alt="Mahoro Hyacinthe"
                 className="relative w-80 h-80 md:w-96 md:h-96 object-cover rounded-full shadow-2xl border-4 border-white/50"
               />
