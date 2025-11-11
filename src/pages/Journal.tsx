@@ -65,14 +65,6 @@ export const Journal = () => {
               ))}
             </select>
 
-            <motion.button
-              onClick={() => setShowForm(!showForm)}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="btn-primary"
-            >
-              {showForm ? 'Cancel Entry' : 'Add New Entry'}
-            </motion.button>
           </div>
         </div>
 

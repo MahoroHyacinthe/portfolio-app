@@ -49,7 +49,7 @@ export const CVSection = () => {
       description: 'Taught music production to 50+ students, provided computer repair for 200+ clients'
     },
     {
-      role: 'Station lead',
+      role: 'Station Technician',
       company: 'Special Economic Zones, Masoro Phase I',
       period: '2018 - 2019',
       description: 'Performed electrical installations and maintenance for 30+ projects'
@@ -89,7 +89,7 @@ export const CVSection = () => {
               <h3 className="text-subheading text-slate-900 dark:text-white mb-4">{item.title}</h3>
               <p className="text-body text-slate-600 dark:text-slate-300 mb-8">{item.desc}</p>
               <motion.a 
-                href={item.file === 'CV' ? './cv/Mahoro_Hyacinthe_CV.pdf' : './cv/Mahoro_Hyacinthe_Cover_Letter.pdf'}
+                href={item.file === 'CV' ? '/portfolio-app/cv/MahoroCV.pdf' : '/portfolio-app/cv/Mahoro_Hyacinthe_Cover_Letter.pdf'}
                 download
                 className="btn-primary inline-flex items-center"
                 whileHover={{ scale: 1.05 }}

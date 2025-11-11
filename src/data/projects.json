@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "title": "E-Commerce Platform",
-    "description": "Full-stack React e-commerce application with TypeScript, featuring product catalog, shopping cart, payment integration, and admin dashboard. Built with modern web technologies and best practices.",
-    "technologies": ["React", "TypeScript", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+    "title": "SkillLink",
+    "description": "Full-stack React e-Learning Platform  with TypeScript, featuring product catalog, shopping cart, payment integration, and admin dashboard. Built with modern web technologies and best practices.",
+    "technologies": ["React", "TypeScript", "Next.js", "MongoDB", "Stripe", "Tailwind CSS"],
     "thumbnail": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
     "liveDemo": "https://ecommerce-demo.vercel.app",
     "githubRepo": "https://github.com/MahoroHyacinthe/ecommerce-platform",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "title": "Task Management Dashboard",
+    "title": "Digital Medical Ordonance system",
     "description": "Comprehensive task management application with drag-and-drop functionality, real-time updates, team collaboration features, and advanced filtering options.",
     "technologies": ["React", "TypeScript", "Firebase", "Tailwind CSS", "Framer Motion"],
     "thumbnail": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop",
@@ -21,19 +21,19 @@
   },
   {
     "id": 3,
-    "title": "Weather Analytics Dashboard",
-    "description": "Interactive weather dashboard with location-based forecasts, beautiful data visualizations, historical data analysis, and weather alerts system.",
-    "technologies": ["React", "TypeScript", "Chart.js", "OpenWeather API", "Recharts"],
-    "thumbnail": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=300&fit=crop",
+    "title": "IHuza product Management Dashboard",
+    "description": "Interactive Inventory dashboard with beautiful data visualizations, historical analysis, and stock alerts system.",
+    "technologies": ["React", "TypeScript","tailwind css"],
+    "thumbnail": "/portfolio-app/IhuzaInventory.JPG",
     "liveDemo": "https://weather-dashboard-demo.vercel.app",
     "githubRepo": "https://github.com/MahoroHyacinthe/weather-dashboard",
     "featured": true
   },
   {
     "id": 4,
-    "title": "Social Media Analytics",
-    "description": "Advanced social media analytics platform with real-time data processing, engagement metrics, content performance tracking, and automated reporting.",
-    "technologies": ["React", "TypeScript", "D3.js", "Node.js", "PostgreSQL"],
+    "title": "MenyaLo",
+    "description": "MenyaLo transforms the Rwanda Law Gazette into a searchable, readable, and AI-powered platform that connects citizens, startups, and legal experts through verified insights and community support.",
+    "technologies": ["React", "javascript", "tailwind css","pstgresql","MongoDB","ML","TypeScript"],
     "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
     "liveDemo": "https://social-analytics-demo.vercel.app",
     "githubRepo": "https://github.com/MahoroHyacinthe/social-analytics"
@@ -76,9 +76,9 @@
   },
   {
     "id": 9,
-    "title": "Recipe Sharing Platform",
-    "description": "Community-driven recipe sharing platform with ingredient substitutions, meal planning, shopping lists, and cooking timer features.",
-    "technologies": ["React", "TypeScript", "Firebase", "Algolia", "PWA"],
+    "title": "U-Connect ",
+    "description": "Community-driven system which connects local government with civilians, providing direct access between leaders and citizens for service requests, feedback, and community updates..",
+    "technologies": ["React", "TypeScript", "Msql", "Algolia", "PWA"],
     "thumbnail": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
     "liveDemo": "https://recipe-platform-demo.vercel.app",
     "githubRepo": "https://github.com/MahoroHyacinthe/recipe-platform"

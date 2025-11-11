@@ -45,14 +45,14 @@
     "id": 7,
     "title": "Testing: Building Confidence in Code",
     "content": "Writing tests has become second nature to me. Unit tests, integration tests, and end-to-end tests each serve their purpose in building robust applications. Jest and React Testing Library have become essential tools in my development workflow. The confidence that comes from having comprehensive test coverage is invaluable. When I refactor code or add new features, I know immediately if something breaks. Testing isn't just about catching bugs; it's about designing better APIs and components.",
-    "date": "2024-11-08",
+    "date": "2023-11-08",
     "topic": "Testing"
   },
   {
     "id": 8,
     "title": "Version Control and Collaboration Best Practices",
     "content": "Git has evolved from a mysterious tool to an essential part of my daily workflow. Understanding branching strategies, merge vs. rebase, and writing meaningful commit messages has improved my collaboration skills significantly. Working on team projects at Solvit Africa taught me the importance of clear communication through code. Pull requests aren't just about code review; they're opportunities for knowledge sharing and mentorship.",
-    "date": "2024-11-01",
+    "date": "2022-11-01",
     "topic": "Git"
   }
 ]
